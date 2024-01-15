@@ -1,0 +1,246 @@
+
+//+------------------------------------------------------------------+
+//|                                             Encrypter 2 EA.mq5   |
+//|                           Copyright © 2021, Forex Robot Easy Team |
+//|                                      Developer's site: forexroboteasy.com |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//|                   Expert initialization function                  |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Initialization code goes here
+    
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//|                 Expert deinitialization function                  |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Deinitialization code goes here
+}
+
+//+------------------------------------------------------------------+
+//|                    Expert tick function                           |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Tick function code goes here
+    
+    // Calculate EMA value
+    double emaValue = CalculateEMA();
+
+    // Analyze currency price trends using EMA algorithm
+    bool uptrend = CheckUptrend(emaValue);
+
+    // Identify potential trading opportunities
+    if (uptrend)
+    {
+        // Execute buy trade
+        ExecuteBuyTrade();
+    }
+    else
+    {
+        // Execute sell trade
+        ExecuteSellTrade();
+    }
+}
+
+//+------------------------------------------------------------------+
+//|                 Function to calculate EMA value                   |
+//+------------------------------------------------------------------+
+double CalculateEMA()
+{
+    // EMA calculation code goes here
+    
+    return emaValue;
+}
+
+//+------------------------------------------------------------------+
+//|             Function to analyze currency price trends             |
+//+------------------------------------------------------------------+
+bool CheckUptrend(const double emaValue)
+{
+    // Trend analysis code goes here
+    
+    return uptrend;
+}
+
+//+------------------------------------------------------------------+
+//|                    Function to execute buy trade                  |
+//+------------------------------------------------------------------+
+void ExecuteBuyTrade()
+{
+    // Buy trade execution code goes here
+    
+    // Logical conclusion
+    Print('Buy trade executed successfully');
+}
+
+//+------------------------------------------------------------------+
+//|                   Function to execute sell trade                  |
+//+------------------------------------------------------------------+
+void ExecuteSellTrade()
+{
+    // Sell trade execution code goes here
+    
+    // Logical conclusion
+    Print('Sell trade executed successfully');
+}
+
+//+------------------------------------------------------------------+
+//|                    Expert tick function                           |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Tick function code goes here
+    
+    // Calculate EMA value
+    double emaValue = CalculateEMA();
+
+    // Analyze currency price trends using EMA algorithm
+    bool uptrend = CheckUptrend(emaValue);
+
+    // Identify potential trading opportunities
+    if (uptrend)
+    {
+        // Execute buy trade
+        ExecuteBuyTrade();
+    }
+    else
+    {
+        // Execute sell trade
+        ExecuteSellTrade();
+    }
+}
+
+//+------------------------------------------------------------------+
+//|                 Function to calculate EMA value                   |
+//+------------------------------------------------------------------+
+double CalculateEMA()
+{
+    // EMA calculation code goes here
+    
+    return emaValue;
+}
+
+//+------------------------------------------------------------------+
+//|             Function to analyze currency price trends             |
+//+------------------------------------------------------------------+
+bool CheckUptrend(const double emaValue)
+{
+    // Trend analysis code goes here
+    
+    return uptrend;
+}
+
+//+------------------------------------------------------------------+
+//|                    Function to execute buy trade                  |
+//+------------------------------------------------------------------+
+void ExecuteBuyTrade()
+{
+    // Buy trade execution code goes here
+    
+    // Logical conclusion
+    Print('Buy trade executed successfully');
+}
+
+//+------------------------------------------------------------------+
+//|                   Function to execute sell trade                  |
+//+------------------------------------------------------------------+
+void ExecuteSellTrade()
+{
+    // Sell trade execution code goes here
+    
+    // Logical conclusion
+    Print('Sell trade executed successfully');
+}
+
+//+------------------------------------------------------------------+
+//|                   Expert initialization function                  |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Initialization code goes here
+    
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//|                 Expert deinitialization function                  |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Deinitialization code goes here
+}
+
+//+------------------------------------------------------------------+
+//|                    Expert tick function                           |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Tick function code goes here
+    
+    // Calculate EMA value
+    double emaValue = CalculateEMA();
+
+    // Analyze currency price trends using EMA algorithm
+    bool uptrend = CheckUptrend(emaValue);
+
+    // Identify potential trading opportunities
+    if (uptrend)
+    {
+        // Execute buy trade
+        ExecuteBuyTrade();
+    }
+    else
+    {
+        // Execute sell trade
+        ExecuteSellTrade();
+    }
+}
+
+//+------------------------------------------------------------------+
+//|                 Function to calculate EMA value                   |
+//+------------------------------------------------------------------+
+double CalculateEMA()
+{
+    // EMA calculation code goes here
+    
+    return emaValue;
+}
+
+//+------------------------------------------------------------------+
+//|             Function to analyze currency price trends             |
+//+------------------------------------------------------------------+
+bool CheckUptrend(const double emaValue)
+{
+    // Trend analysis code goes here
+    
+    return uptrend;
+}
+
+//+------------------------------------------------------------------+
+//|                    Function to execute buy trade                  |
+//+------------------------------------------------------------------+
+void ExecuteBuyTrade()
+{
+    // Buy trade execution code goes here
+    
+    // Logical conclusion
+    Print('Buy trade executed successfully');
+}
+
+//+------------------------------------------------------------------+
+//|                   Function to execute sell trade                  |
+//+------------------------------------------------------------------+
+void ExecuteSellTrade()
+{
+    // Sell trade execution code goes here
+    
+    // Logical conclusion
+    Print('Sell trade executed successfully');
+}
